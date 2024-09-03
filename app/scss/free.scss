@@ -1,0 +1,48 @@
+.free{
+    width: 100%;
+    background: url(../images/dist/free.png) center no-repeat;
+    background-size: cover;
+    padding: 80px;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        &-title{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            text-align: left;
+            max-width: 941px;
+            color: #fff;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 32px;
+            text-align: left;
+            color: #fff;
+            max-width: 591px;
+        }
+        p:nth-child(2){
+            margin-top: 7px;
+        }
+        &-btn{
+            width: 413px;
+            height: 77px;
+            border-radius: 49px;
+            background: #2EECC51A;
+            backdrop-filter: blur(2px);
+            border: 1.5px solid #2EECC5;
+            box-shadow: 0px 0px 37px 0px #2EECC533;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28.8px;
+            text-align: left;
+            color: #fff;
+            margin-top: 31px;
+        }
+    }
+}

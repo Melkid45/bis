@@ -1,0 +1,22 @@
+.gallery{
+    width: 100%;
+    padding: 150px 0px;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+        &-big{
+            width: 100%;
+            height: 572px;
+        }
+        &-gp{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img{
+                width: 413px;
+                height: 294px;
+            }
+        }
+    }
+}

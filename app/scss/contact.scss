@@ -1,0 +1,167 @@
+.contact {
+    width: 100%;
+    padding: 150px 0px 100px 0px;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+
+        &-form {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+
+                h3 {
+                    font-size: 36px;
+                    font-weight: 500;
+                    line-height: 46px;
+                    text-align: center;
+                    max-width: 511px;
+                    color: #fff;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: center;
+                    max-width: 472px;
+                    color: #fff;
+                }
+            }
+
+            &-main {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                &-item {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+
+                    span {
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 26.15px;
+                        text-align: left;
+                        color: #FFFFFFB2;
+                    }
+
+                    input {
+                        width: 511px;
+                        height: 58px;
+                        border: 1.5px solid #FFFFFF33;
+                        background: #FFFFFF1A;
+                        box-shadow: 0px 0px 38px 0px #FFFFFF0D;
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 26.15px;
+                        text-align: left;
+                        color: #fff;
+                        border-radius: 41px;
+                        padding-left: 20px;
+                    }
+
+                    textarea {
+                        min-width: 511px;
+                        min-height: 184px;
+                        border: 1.5px solid #FFFFFF33;
+                        background: #FFFFFF1A;
+                        box-shadow: 0px 0px 38px 0px #FFFFFF0D;
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 26.15px;
+                        text-align: left;
+                        color: #fff;
+                        border-radius: 41px;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        resize: none;
+                    }
+                }
+
+                &-btn {
+                    width: 511px;
+                    height: 58px;
+                    border: 1.5px solid #2EECC5;
+                    background: #2EECC51A;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0px 0px 38px 0px #FFFFFF0D;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    color: #fff;
+                    border-radius: 41px;
+                }
+            }
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            &-title {
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 46px;
+                text-align: left;
+                color: #fff;
+            }
+            &-text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                span{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    color: #fff;
+                    max-width: 365px;
+                }
+            }
+            &-block{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 30px;
+                span{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+            &-social{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                a{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    border: 1px solid #19AD8F;
+                    background: transparent;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    svg{
+                        width: 34px;
+                        height: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
