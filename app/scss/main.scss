@@ -1,5 +1,6 @@
 .main{
     width: 100%;
+    margin-top: 200px;
     .line__top{
         width: 1413px;
         height: 3px;
@@ -42,6 +43,9 @@
                 text-align: left;
                 color: #fff;
                 max-width: 704px;
+                span{
+                    color: #2EECC5;
+                }
             }
             p{
                 font-size: 16px;

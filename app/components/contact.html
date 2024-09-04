@@ -6,27 +6,26 @@
                     <h3>Оставьте заявку на
                         бесплатную консультацию
                     </h3>
-                    <p>Расскажите о своих пожеланиях, и я с вами свяжусь в течение нескольких часов для обсуждения
-                        ситуации</p>
+                    <p>Расскажите о своих пожеланиях, и я свяжусь с вами для обсуждения ситуации</p>
                 </div>
-                <form action="" class="contact__body-form-main">
+                <form action="../index.php" method="post" class="contact__body-form-main">
                     <div class="contact__body-form-main-item">
                         <span>Ваше ФИО</span>
-                        <input type="text">
+                        <input class="input" name="fio" type="text">
                     </div>
                     <div class="contact__body-form-main-item">
                         <span>Ваш номер телефона</span>
-                        <input type="text">
+                        <input class="input" name="phone" id="phone" oninput="this.value=this.value.replace(/[^0-9+]/g,'');" type="text">
                     </div>
                     <div class="contact__body-form-main-item">
                         <span>Ваш E-MAIL адрес</span>
-                        <input type="text">
+                        <input class="input" name="email"  oninput="this.value=this.value.replace(/[^a-zA-Z@]/g,'');" type="text">
                     </div>
                     <div class="contact__body-form-main-item">
                         <span>Ваш комментарий ( по желанию )</span>
-                        <textarea></textarea>
+                        <textarea name="message"></textarea>
                     </div>
-                    <button class="contact__body-form-main-btn">
+                    <button type="button" class="contact__body-form-main-btn">
                         Оставить заявку
                     </button>
                 </form>

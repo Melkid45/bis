@@ -1,6 +1,12 @@
 .header{
     width: 100%;
     padding: 27px 0px 31px 0px;
+    transition: all 0.7s ease;
+    position: fixed;
+    top: 0;
+    background: #161617;
+    left: 0;
+    z-index: 100;
     &__body{
         display: flex;
         align-items: center;

@@ -7,6 +7,8 @@ body{
     background: #161617;
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
 }
 .container{
     max-width: 1280px;
@@ -27,4 +29,47 @@ body{
 }
 .link__hover:hover{
     color: #2EECC5;
+}
+.mob{
+    display: none !important;
+}
+.desk{
+    display: flex !important;
+}
+.hidden{
+    overflow: hidden;
+}
+.header.bef{
+    translate: 0 -100%;
+}
+.telegram{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #19AD8F;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 100px;
+    right: 250px;
+    transition: all 0.5s ease;
+    opacity: 0;
+    translate: 0 -20%;
+    svg{
+        width: 34px;
+        height: 34px;
+    }
+}
+.telegram.active{
+    translate: 0 0;
+    opacity: 1;
+}
+.input.error{
+    border-color: rgb(206, 40, 40) !important;
+}
+.abs{
+    position: absolute;
+    bottom: 0;
 }

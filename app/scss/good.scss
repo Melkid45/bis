@@ -1,0 +1,46 @@
+.good {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        &-title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 61.44px;
+            text-align: left;
+            color: #fff;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            color: #fff;
+        }
+
+        a {
+            width: 300px;
+            height: 57px;
+            border-radius: 41px;
+            border: 1.5px solid #2EECC5;
+            background: #2EECC51A;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25.6px;
+            text-align: left;
+            color: #fff;
+            gap: 5px;
+            margin-top: 0px;
+        }
+    }
+}
